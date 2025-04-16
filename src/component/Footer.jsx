@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="bg-[#000000] w-[85.69px] h-[28.57px]">
           <img src={logo} alt="trex logo" />
         </div>
-        <div className="md:h-[27px] text-[16px] font-medium underline items-center flex flex-col gap-5 text-[#1d1d1d]">
+        <div className="md:h-[27px] text-[16px] font-medium underline items-center flex flex-col md:flex-row gap-5 text-[#1d1d1d]">
           {links.map((link, index) => {
             return (
               <a key={index} href={link.to}>
